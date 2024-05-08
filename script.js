@@ -10,7 +10,7 @@ let tvstatus = document.querySelector(".tvstatus");
 button.addEventListener("click", function(){
 
   // generate number for page and tv show in the api
-  let page = Math.floor(Math.random() * (200 - 0 + 0)) + 0;
+  let page = Math.floor(Math.random() * (150 - 0 + 0)) + 0;
   let tvshow = Math.floor(Math.random() * (19 - 0 + 0)) + 0;
   
   let url = "https://www.episodate.com/api/most-popular?page=" + page
